@@ -1,0 +1,110 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <title>School app</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="iconbar"></span>
+                <span class="iconbar"></span>
+                <span class="iconbar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Lord Roberts Elementary School</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="Campus Life">Campus Life</a></li>
+                <li><a href="Achievements">Achievements</a></li>
+                <li><a href="Whats New">Whats New</a></li>
+                <li><a href="Alumni">Alumni</a></li>
+                <li><a href="Contact Us">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="announcement">
+        <marquee id="marqueestyle" onmouseover="this.stop();" onmouseout="this.start();">
+            *** Feel free to ask question at the teams website ***
+        </marquee>
+    </div>
+
+    <iframe width="1000" height="600" src="https://www.youtube.com/embed/qJh7LCgJpMw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <div class="page-header" id="Campus life">
+        <h2 class="text-capitalize">Campus Life</h2>
+        <div class="row">
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="https://fastly.4sqi.net/img/general/600x600/21543439_biBCk5HeVL7_v5CqWC4mz51kqRGAlknC9ghKqhlXCcU.jpg">
+                <h4 class="text-capitalize"><kdb>school gym</kdb></h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalize">Was established in 1945</h5>
+                <p class="text-muted text-left">Mostly we use the gym for sports and anouncements but once they use it for a inter school basketball match.</p>
+            </div>
+            
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="https://www.vsb.bc.ca/schools/lord-roberts/Style%20Library/sbimg/190424/6fe71425-08c4-4ee5-9ea0-4db1b7f4999f.jpg">
+                <h4 class="text-capitalize"><kdb>Library</kdb></h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalize">Was established in 1987</h5>
+                <p class="text-muted text-left">The lord Roberts elementary school library has over 1000 books it is all organized and has all the varities of books.</p>
+            </div>
+            
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHVw2K9lc41mGMGD5er76HMnTkK-r6sngkLg&usqp=CAU">
+                <h4 class="text-capitalize"><kdb>Murals</kdb></h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalize">Was established in 1987</h5>
+                <p class="text-muted text-left">The mural was made by the students and teacher.</p>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    
+    <p>Basketball Touranment</p>
+    <div class="line">
+
+    <img scr="data:image/jpeg;base64,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" class="img-responsive img-thumbnail">
+
+        <h5 class="text-success text-center text-capitalize">won champianships</h5>
+        <p>The match was very close but in the end we won the match by a half court swish</p>
+
+    <hr>
+    
+    <center id="Contact Us">
+    <p>CONTACT US</p>
+    <hr>
+
+    <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5204.993686726404!2d-123.14205040003051!3d49.28593065354226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54867228ea4b5381%3A0x9c1ad4235c9d12f8!2sLord%20Roberts%20Elementary%20School!5e0!3m2!1sen!2sca!4v1615147622663!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <div id="details">
+        <img src="https://image.shutterstock.com/image-vector/cartoon-man-principal-sitting-his-260nw-120824776.jpg" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+        <h3>Principle Name:</h3>
+        <h4>Mrs. Marwaha</h4>
+        <div class="contact_1">
+            <a href="mallto:school@gmail.com?Subject-H1">
+                <h5><i class="fa fa envelope"></i>&nbsp;&nbsp;school@gmail.com</h5>
+            </a>
+        </div>
+    </div>
+    </center>
